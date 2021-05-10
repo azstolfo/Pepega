@@ -1,6 +1,6 @@
 module Lane = struct
   type lane =
-  Top of string 
+  | Top of string 
   | Jungle of string 
   | Mid of string 
   | Adc of string 
